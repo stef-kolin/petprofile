@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: lightgrey;
+    margin-bottom: 40px;
+}
+
+nav ul li{
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.bio {
+    background-color: mediumpurple;
+    width: 29%;
+    float: left;
+    border: 1px black solid;
+    height: 600px;
+}
+.story {
+    background-color: aliceblue;
+    float: left;
+    width: 68%;
+    padding-left: 2%;
+    border: 1px black solid;
+    height: 600px
+} 
+
+.gallery {
+    text-align: center;
+}
+.profile {
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 700;
+}
+.stats {
+    background-color: lightpink;
+    padding-left: 40px;
+    padding-left: 24px;
+}
+.statslist {
+    list-style-type: none;
+}
+.statslist li {
+    margin-bottom: 40px;
+}
+.statslist li:first-child {
+    margin-bottom: 16px;
+}
+.bold {
+    font-weight: 700;
+}
+.leftfloat {
+
+}
